@@ -1,0 +1,21 @@
+<html>
+
+<head>
+
+    <script src="cargaPersonas.js"></script>
+</head>
+
+
+<body>
+    
+<h1 id="h1">Nueva persona:</h1>
+
+<table>
+    <tr><td>Nombre</td><td><input type="text" id="txtNombre" oninput="cambioNombre(this)" ></td></tr>
+    <tr><td>Edad</td><td><input type="range" id="txtEdad" value="0" min="0" max="120" oninput="cambioEdad(this)"></td></tr>
+    <tr></tr>
+</table>
+
+<div id="divPersona"></div>
+</body>
+</html>
